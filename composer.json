@@ -1,0 +1,16 @@
+{
+    "name": "ddeshar/convertthaidate",
+    "description": "A library to convert dates to Thai format",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "dipendra",
+            "email": "jedeshar@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    }
+}
