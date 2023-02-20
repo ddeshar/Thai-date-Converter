@@ -31,3 +31,7 @@ For more information and usage examples, see the [ThaiDateConverter User Manual]
 ## User Manual
 
 For detailed information on using this library, see the [User Manual](UserManual.md).
+
+## Downloads
+
+You can download the latest version of the package from the [releases](https://github.com/ddeshar/Thai-date-Converter/releases) page.
