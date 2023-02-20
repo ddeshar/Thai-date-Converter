@@ -10,7 +10,17 @@ composer require ddeshar/thai-date-converter
 ```
 
 ## Usage
+```sh
+namespace ddeshar\convertthaidate;
 
+require_once __DIR__ . '/vendor/autoload.php';
+
+use ddeshar\convertthaidate\ThaiDateConverter;
+
+$date = '2022-12-31 12:00:00';
+$thaiDate = ThaiDateConverter::convert($date, 'th', true, 'dd/mm/yyyy');
+echo $thaiDate;
+```
 ### FormatTimeConverter
 
 The `FormatTimeConverter` class provides two methods for converting time values:
