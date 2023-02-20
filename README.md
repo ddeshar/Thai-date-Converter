@@ -1,33 +1,33 @@
-# Your Library
-
-A library to convert dates to Thai format.
+# Thai-date-Converter
+A simple library for converting dates to Thai date format and formatting elapsed time.
 
 ## Installation
 
-To install Date Converter, run the following command:
+You can install the library using composer:
 
 ```sh
-composer require ddeshar/dateconverter
+composer require ddeshar/thai-date-converter
 ```
 
 ## Usage
 
-```sh
-use YourNameSpace\DateConverter;
+### FormatTimeConverter
 
-$date = '2022-01-01';
-$thaiDate = DateConverter::DateTimeThai($date);
+The `FormatTimeConverter` class provides two methods for converting time values:
 
-echo $thaiDate; // Output: "1 ม.ค. 2565, 00:00"
+- `format_time`: Converts the given number of seconds into a formatted time string in the format of hh:mm.
+- `time_ago`: Converts a given timestamp into a human-readable string indicating the time elapsed since that timestamp.
 
-$time = 180;
-$formattedTime = DateConverter::format_time($time);
+For more information and usage examples, see the [FormatTimeConverter User Manual](UserManual.md#FormatTimeConverter).
 
-echo $formattedTime; // Output: "03:00"
-```
+### ThaiDateConverter
 
+The `ThaiDateConverter` class provides a method for converting a date string to Thai date format.
 
-## License
+- `convert`: Converts a date string to Thai date format.
 
-Date Converter is licensed under the MIT license.
+For more information and usage examples, see the [ThaiDateConverter User Manual](UserManual.md#ThaiDateConverter).
 
+## User Manual
+
+For detailed information on using this library, see the [User Manual](UserManual.md).
