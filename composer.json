@@ -3,6 +3,11 @@
     "description": "A library to convert dates to Thai format",
     "type": "library",
     "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "ddeshar\\convertthaidate\\": "src/"
+        }
+    },    
     "authors": [
         {
             "name": "dipendra",
